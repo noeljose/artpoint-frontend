@@ -1,0 +1,74 @@
+  /*********** Tab Bar **********/
+  .nav-tabs{
+    width: 95%;
+    }
+    
+    .nav-item a{
+    color: black !important;
+    font-weight: 600;
+    padding-left: 28px;
+    text-transform: uppercase;
+    padding-right: 28px;
+    }
+    
+    .nav-item a:hover,
+    .nav-item .active{
+    color: #5741A3 !important;
+    border:none !important;
+    border-bottom: 2px solid #5741A3 !important;
+    font-weight: 600;
+    }
+
+    /* ************ New Table ********* */
+    .table ,.table tbody, .table thead{
+    width: 100%;
+    }
+.table-fill {
+    background: white;
+    border-radius:3px;
+    border-collapse: collapse;
+    margin: auto;
+    width: 100%;
+  }
+
+  .table-fill th {
+    color:#D5DDE5;;
+    background:#1b1e24;
+    border-bottom:4px solid #9ea7af;
+    border-right: 1px solid #343a45;
+    font-size:20px;
+    font-weight: 100;
+    padding:24px;
+    text-align:center;
+    vertical-align:middle;
+  }
+
+  .table-fill td {
+    background:#FFFFFF;
+    padding:5px;
+    vertical-align:middle;
+    font-size:18px;
+    border-right: 1px solid #C1C3D1;
+  }
+
+  /* .table-fill tr:hover td {
+    background:#4a4755c4;
+    color:#FFFFFF;
+    border-top: 1px solid #22262e;
+  } */
+
+  .table-fill tr:nth-child(even) td {
+    background:#EBEBEB;
+  }
+
+  /* .table-fill tr:hover td {
+    background:#4a4755c4;
+    color:#FFFFFF;
+    border-top: 1px solid #22262e;
+  } */
+
+  .btn-link{
+    font-weight: 600 !important;
+    text-decoration: none !important;
+    color: #5741A3 !important;
+  }
